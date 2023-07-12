@@ -362,8 +362,8 @@ p {
 }
 
 .header-log-reg {
-    -ms-flex-preferred-size: 19%;
-    flex-basis: 19%;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
 }
 
 .main-menu-area ul li {
@@ -4600,4 +4600,50 @@ p {
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+/* pageantry */
+.dash-bg-1 {
+    background: #3B3A3A !important;
+}
+
+.dash-bg-2 {
+    background: #42925A !important;
+}
+
+.dash-bg-3 {
+    background: #186BB7 !important;
+}
+
+.dash-bg-4 {
+    background: #E94860 !important;
+}
+
+.dash-bg-1 p {
+    background: #2A2929 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.dash-bg-2 p {
+    background: #347648 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.dash-bg-3 p {
+    background: #12548E !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.dash-bg-4 p {
+    background: #C73D55 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.dash {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
