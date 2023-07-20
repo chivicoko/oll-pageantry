@@ -4647,3 +4647,11 @@ p {
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
 }
+
+/* the sidebar logout flex */
+.side-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: calc(100vh - 20vh); */
+}

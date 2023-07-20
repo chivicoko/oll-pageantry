@@ -43,7 +43,7 @@
     <!--end preloader-->
     
     <!--start header-btm-area-->
-    <div class="header-btm-area py-0 bg-gray">
+    <div class="header-btm-area bg-gray">
         <div class="container">
             <div class="main-menu-wrap py-0">
                 
@@ -81,7 +81,7 @@
         <div class="row">
             <div class="col-lg-3">
                  <!--start faq area-->
-                <section class="faq-area py-4">
+                <section class="faq-area py-4" style="position: fixed; z-index: 10;">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -92,31 +92,36 @@
                                             <h4>Voting System</h4>
                                         </div>
                                         <!--end heading-->
-                                        <div id="accordion">
-                                            <div class="card">
-                                                <div>
-                                                    <span>
-                                                        <img class="img-fluid" width="80px" src="assets/images/person.png" alt="logo.png">
-                                                        <strong style="font-size: 25px;">Emma Duck</strong>
-                                                    </span>
+
+                                        <div id="accordion" class="side-flex-container">
+                                            <div class="side-flex1">
+                                                <div class="card">
+                                                    <div>
+                                                        <span>
+                                                            <img class="img-fluid" width="80px" src="assets/images/person.png" alt="logo.png">
+                                                            <strong style="font-size: 25px;">Emma Duck</strong>
+                                                        </span>
+                                                    </div>
                                                 </div>
+    
+                                                <!-- <div class="card">
+                                                    <div class="pl-3 py-2">
+                                                        <span>
+                                                            <img class="img-fluid" width="35px" src="assets/images/votes-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
+                                                            <span style="font-size: 18px;"><a href="admin-dashboard-candidates.html">Votes</a></span>
+                                                        </span>
+                                                    </div>
+                                                </div> -->
                                             </div>
 
-                                            <!-- <div class="card">
-                                                <div class="pl-3 py-2">
-                                                    <span>
-                                                        <img class="img-fluid" width="35px" src="assets/images/votes-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
-                                                        <span style="font-size: 18px;"><a href="admin-dashboard-candidates.html">Votes</a></span>
-                                                    </span>
-                                                </div>
-                                            </div> -->
-
-                                            <div class="card mt-5">
-                                                <div class="pl-3 py-2">
-                                                    <span>
-                                                        <img class="img-fluid" width="35px" src="assets/images/logout-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
-                                                        <span style="font-size: 18px;"><a href="voter-login.html">Log Out</a></span>
-                                                    </span>
+                                            <div class="side-flex2">
+                                                <div class="card mt-5">
+                                                    <div class="pl-3 py-2">
+                                                        <span>
+                                                            <img class="img-fluid" width="35px" src="assets/images/logout-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
+                                                            <span style="font-size: 18px;"><a href="voter-login.html">Log Out</a></span>
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
