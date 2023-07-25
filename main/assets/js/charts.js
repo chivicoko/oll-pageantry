@@ -29,7 +29,8 @@ $(document).ready(function() {
         { y: 'Amara', a: 150},
         { y: 'Chioma', a: 175},
         { y: 'Ngozi', a: 17},
-        { y: 'Nelly', a: 100}
+        { y: 'Mike', a: 250},
+        { y: 'Nelly', a: 390}
       ],
       xkey: 'y',
       ykeys: ['a'],
