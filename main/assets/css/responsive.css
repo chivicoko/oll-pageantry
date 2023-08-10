@@ -1712,4 +1712,13 @@
         outline: none;
         cursor: pointer;
     }
+
+    
+    .site-logo {
+        margin-left: 15px;
+    }
+
+    .faq-area-big {
+        display: none;
+    }
 }

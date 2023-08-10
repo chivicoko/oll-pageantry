@@ -136,7 +136,7 @@ p {
 }
 
 .container {
-    max-width: 1240px;
+    max-width: 100vw;
 }
 
 .btn-default a {
@@ -153,7 +153,6 @@ p {
 
 .btn-default a:hover {
     background-color: #0f4010
-    /* background-color: #0f4010 */
 }
 
 .overlay {
@@ -4707,4 +4706,10 @@ p {
 
 .voteNumBtn:hover {
     background: rgb(218, 218, 218);
+}
+
+.site-logo {
+    position: absolute;
+    margin-left: 170px;
+    z-index: 100;
 }

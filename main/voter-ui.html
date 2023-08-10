@@ -41,39 +41,101 @@
         </div>
     </div>
     <!--end preloader-->
-    
-    <!--start header-btm-area-->
-    <div class="header-btm-area py-0 bg-gray fixed-top" style="position: sticky; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;">
-        <div class="container">
-            <div class="main-menu-wrap py-0">
-                
-                <!--start mainmenu-->
-                <div class="main-menu-area text-left" style="margin-left: 210px;">
-                    <div class="">
-                        <!-- <a class=""><i class="fa fa-bars"></i></a> -->
-                    </div>
+    <div class="sidebar-wrap">
+        <div class="sidebar-inner p-0">
+            <div class="sidebar-close">
+                <div class="sidebar-close-btn">
+                    <i class="fa fa-times"></i>
                 </div>
-
-                <div class="header-log-reg text-right">
-                    <div>
-                        <span>
-                            <img class="img-fluid" width="80px" src="assets/images/person-removebg-preview.png" alt="logo.png">
-                            <strong>Emma Duck (<small>Voter</small>)</strong>
-                        </span>
-                    </div>
-                </div>
-                <!--end login registration btn-->
-                
-                <!--start toggle button-->
-                <div class="header-toggle-btn" style="margin-left: 0;">
-                    <a class="sidebar-toggle-btn">
-                        <i class="fa fa-bars"></i>
+            </div>
+            <div class="sidebar-content">
+                <div class="sidebar-logo pl-4 pt-3">
+                    <a href="index.html">
+                        <img class="img-fluid" width="50px" src="assets/images/pageantry-image-removebg-preview.png" alt="logo.png">
                     </a>
                 </div>
-                <!--end toggle button-->
+                <div class="mobile-menu"></div>
+                
+                 <!--start faq area-->
+                <section class="faq-area py-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="accordian-cont-wrap d-table">
+                                    <div class="d-table-cell align-middle">
+                                        <!--start heading-->
+                                        <div class="sec-heading">
+                                            <h4>Voting System</h4>
+                                        </div>
+                                        <!--end heading-->
+                                        <div id="accordion">
+                                            <div class="card">
+                                                <div>
+                                                    <span>
+                                                        <img class="img-fluid" width="80px" src="assets/images/person.png" alt="logo.png">
+                                                        <strong style="font-size: 25px;">Emma Duck</strong>
+                                                        <!-- <span>online</span> -->
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            
+                                            <div id="accordion" class="side-flex-container">
+                                                <div class="side-flex2">
+                                                    <div class="card mt-5">
+                                                        <div class="pl-3 py-2">
+                                                            <span>
+                                                                <img class="img-fluid" width="35px" src="assets/images/logout-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
+                                                                <span style="font-size: 18px;"><a href="voter-login.html">Log Out</a></span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--end faq area-->
+
             </div>
         </div>
     </div>
+    <!-- start header-top-area -->
+    <header class="header-area">
+        <!--start header-btm-area-->
+        <div class="header-btm-area bg-gray">
+            <div class="container">
+                <div class="main-menu-wrap">
+                    <!--start site logo-->
+                    <div class="site-logo">
+                        <img class="img-fluid" width="50px" src="assets/images/pageantry-image-removebg-preview.png" alt="logo.png">
+                    </div>
+                    <!--end site logo-->
+
+                    <div class="header-log-reg text-right" style="margin-left: 800px;">
+                        <div>
+                            <span>
+                                <img class="img-fluid" width="80px" src="assets/images/person-removebg-preview.png" alt="logo.png">
+                                <strong>Emma Duck (<small>Voter</small>)</strong>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!--start toggle button-->
+                    <div class="header-toggle-btn" style="margin-left: 0;">
+                        <a class="sidebar-toggle-btn bg-gray">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <!--end toggle button-->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--end header-->
     
     <hr>
 
@@ -82,7 +144,7 @@
             <div class="col-lg-3">
 
                  <!--start faq area-->
-                <section class="faq-area py-4">
+                <section class="faq-area faq-area-big py-4">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -118,7 +180,7 @@
                                                         <div class="pl-3 py-2">
                                                             <span>
                                                                 <img class="img-fluid" width="35px" src="assets/images/logout-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
-                                                                <span style="font-size: 18px;"><a href="admin-login.html">Log Out</a></span>
+                                                                <span style="font-size: 18px;"><a href="voter-login.html">Log Out</a></span>
                                                             </span>
                                                         </div>
                                                     </div>
