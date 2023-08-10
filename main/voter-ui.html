@@ -43,7 +43,7 @@
     <!--end preloader-->
     
     <!--start header-btm-area-->
-    <div class="header-btm-area bg-gray">
+    <div class="header-btm-area py-0 bg-gray fixed-top" style="position: sticky; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;">
         <div class="container">
             <div class="main-menu-wrap py-0">
                 
@@ -80,8 +80,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
+
                  <!--start faq area-->
-                <section class="faq-area py-4" style="position: fixed; z-index: 10;">
+                <section class="faq-area py-4">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -92,35 +93,34 @@
                                             <h4>Voting System</h4>
                                         </div>
                                         <!--end heading-->
-
-                                        <div id="accordion" class="side-flex-container">
-                                            <div class="side-flex1">
-                                                <div class="card">
-                                                    <div>
-                                                        <span>
-                                                            <img class="img-fluid" width="80px" src="assets/images/person.png" alt="logo.png">
-                                                            <strong style="font-size: 25px;">Emma Duck</strong>
-                                                        </span>
-                                                    </div>
+                                        <div id="accordion">
+                                            <div class="card">
+                                                <div>
+                                                    <span>
+                                                        <img class="img-fluid" width="80px" src="assets/images/person.png" alt="logo.png">
+                                                        <strong style="font-size: 25px;">Emma Duck</strong>
+                                                        <!-- <span>online</span> -->
+                                                    </span>
                                                 </div>
-    
-                                                <!-- <div class="card">
-                                                    <div class="pl-3 py-2">
-                                                        <span>
-                                                            <img class="img-fluid" width="35px" src="assets/images/votes-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
-                                                            <span style="font-size: 18px;"><a href="admin-dashboard-candidates.html">Votes</a></span>
-                                                        </span>
-                                                    </div>
-                                                </div> -->
                                             </div>
-
-                                            <div class="side-flex2">
-                                                <div class="card mt-5">
-                                                    <div class="pl-3 py-2">
-                                                        <span>
-                                                            <img class="img-fluid" width="35px" src="assets/images/logout-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
-                                                            <span style="font-size: 18px;"><a href="voter-login.html">Log Out</a></span>
-                                                        </span>
+                                            
+                                            <!-- <div class="card">
+                                                <div class="pl-3 py-2">
+                                                    <span>
+                                                        <img class="img-fluid" width="35px" src="assets/images/analysis-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        <span style="font-size: 18px;"><a href="">Analysis</a></span>
+                                                    </span>
+                                                </div>
+                                            </div> -->
+                                            <div id="accordion" class="side-flex-container">
+                                                <div class="side-flex2">
+                                                    <div class="card mt-5">
+                                                        <div class="pl-3 py-2">
+                                                            <span>
+                                                                <img class="img-fluid" width="35px" src="assets/images/logout-img.png" alt="logo.png"> &nbsp; &nbsp; &nbsp; &nbsp;
+                                                                <span style="font-size: 18px;"><a href="admin-login.html">Log Out</a></span>
+                                                            </span>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -132,6 +132,7 @@
                     </div>
                 </section>
                 <!--end faq area-->
+
             </div>
            
             <div class="col-lg-9 bg-gray">                            
@@ -149,7 +150,7 @@
                                         <h4 style="font-size: 18px;">Celestine</h4>
                                         <p>If the road be beautiful, ask not where it leads</p>
                                         <p style="font-size: 13px;">Votes - 302</p>
-                                        <p class="bg-success text-white" style="font-size: 13px;"><a href="">vote</a></p>
+                                        <p class="bg-success text-white vote-btn1" style="font-size: 18px; cursor: pointer;">vote</p>
                                         <strong>#100 per vote</strong>
                                     </div>
                                 </div>
@@ -165,7 +166,7 @@
                                         <h4 style="font-size: 18px;">Celestine</h4>
                                         <p>If the road be beautiful, ask not where it leads</p>
                                         <p style="font-size: 13px;">Votes - 44</p>
-                                        <p class="bg-success text-white" style="font-size: 13px;"><a href="">vote</a></p>
+                                        <p class="bg-success text-white vote-btn2" style="font-size: 18px; cursor: pointer;">vote</p>
                                         <strong>#100 per vote</strong>
                                     </div>
                                 </div>
@@ -181,7 +182,7 @@
                                         <h4 style="font-size: 18px;">Celestine</h4>
                                         <p>If the road be beautiful, ask not where it leads</p>
                                         <p style="font-size: 13px;">Votes - 42</p>
-                                        <p class="bg-success text-white" style="font-size: 13px;"><a href="">vote</a></p>
+                                        <p class="bg-success text-white vote-btn3" style="font-size: 18px; cursor: pointer;">vote</p>
                                         <strong>#100 per vote</strong>
                                     </div>
                                 </div>
@@ -197,7 +198,7 @@
                                         <h4 style="font-size: 18px;">Celestine</h4>
                                         <p>If the road be beautiful, ask not where it leads</p>
                                         <p style="font-size: 13px;">Votes - 13</p>
-                                        <p class="bg-success text-white" style="font-size: 13px;"><a href="">vote</a></p>
+                                        <p class="bg-success text-white vote-btn4" style="font-size: 18px; cursor: pointer;">vote</p>
                                         <strong>#100 per vote</strong>
                                     </div>
                                 </div>
@@ -213,7 +214,7 @@
                                         <h4 style="font-size: 18px;">Celestine</h4>
                                         <p>If the road be beautiful, ask not where it leads</p>
                                         <p style="font-size: 13px;">Votes - 602</p>
-                                        <p class="bg-success text-white" style="font-size: 13px;"><a href="">vote</a></p>
+                                        <p class="bg-success text-white vote-btn5" style="font-size: 18px; cursor: pointer;">vote</p>
                                         <strong>#100 per vote</strong>
                                     </div>
                                 </div>
@@ -229,7 +230,7 @@
                                         <h4 style="font-size: 18px;">Celestine</h4>
                                         <p>If the road be beautiful, ask not where it leads</p>
                                         <p style="font-size: 13px;">Votes - 800</p>
-                                        <p class="bg-success text-white" style="font-size: 13px;"><a href="">vote</a></p>
+                                        <p class="bg-success text-white vote-btn6" style="font-size: 18px; cursor: pointer;">vote</p>
                                         <strong>#100 per vote</strong>
                                     </div>
                                 </div>
@@ -243,6 +244,36 @@
             </div>
         </div>
     </div>
+
+    
+    <section id="popup-area">
+        <div id="application-process" class="popup1">
+          <button id="close">&times;</button>
+          <div>
+            <div class="process">
+                <h2 class="text-center">Payment</h2>
+                <h6 class="text-center" style="color: #ab0a17;">Enter number of votes below</h6>
+                <h6 class="text-center">(#1000 per vote)</h6>
+                
+                <div class="d-flex">
+                    <input type="text" class="form-control" placeholder="Number of votes" name="" id="voteInput" style="border-top-right-radius: 0; border-bottom-right-radius: 0;">
+                    <button class="btn voteNumBtn" style="border-top-left-radius: 0; border-bottom-left-radius: 0;">Go</button>
+                </div>
+                <div class="d-flex justify-content-between mt-5">
+                    <p>Number of votes:</p>
+                    <p id="numOfVotes"></p>
+                </div>
+                <div class="d-flex justify-content-between mb-5">
+                    <p>Price:</p>
+                    <p id="votePrice"></p>
+                </div>
+                <div class="why-choose-btn">
+                    <a href="">Make Payment</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>  
     
     <!--start footer-area-->
     <footer class="footer-area">

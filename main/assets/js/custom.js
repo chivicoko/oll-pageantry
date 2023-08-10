@@ -157,14 +157,57 @@ navLinks.forEach(link => {
     }
 });
 
-// popup
-window.addEventListener("load", () => {
+// popup event
+document.querySelector(".vote-btn1").addEventListener("click", () => {
     setTimeout((event) => {
-        document.querySelector(".popup").style.display = "block";
-    }, 1000);
+        document.querySelector("#popup-area").style.display = "block";
+    }, 500);
+});
+document.querySelector(".vote-btn2").addEventListener("click", () => {
+    setTimeout((event) => {
+        document.querySelector("#popup-area").style.display = "block";
+    }, 500);
+});
+document.querySelector(".vote-btn3").addEventListener("click", () => {
+    setTimeout((event) => {
+        document.querySelector("#popup-area").style.display = "block";
+    }, 500);
+});
+document.querySelector(".vote-btn4").addEventListener("click", () => {
+    setTimeout((event) => {
+        document.querySelector("#popup-area").style.display = "block";
+    }, 500);
+});
+document.querySelector(".vote-btn5").addEventListener("click", () => {
+    setTimeout((event) => {
+        document.querySelector("#popup-area").style.display = "block";
+    }, 500);
+});
+document.querySelector(".vote-btn6").addEventListener("click", () => {
+    setTimeout((event) => {
+        document.querySelector("#popup-area").style.display = "block";
+    }, 500);
 });
 
-// popup
+// popup close on button click
 document.querySelector("#close").addEventListener("click", () => {
-    document.querySelector(".popup").style.display = "none";
+    document.querySelector("#popup-area").style.display = "none";
+});
+
+
+document.getElementById('numOfVotes').innerText = 0;
+document.getElementById('votePrice').innerText = '# 0.00';
+
+document.querySelector('.process input').addEventListener('keydown', (e) => {
+    let numOfVotes;
+    if (e.key === 'Enter') {
+        // console.log(e.target.value);
+        document.getElementById('numOfVotes').innerText = e.target.value;
+        document.getElementById('votePrice').innerText = '# ' + e.target.value * 1000;
+    }
+
+    document.querySelector('.voteNumBtn').addEventListener('click', () => {
+        document.getElementById('numOfVotes').innerText = e.target.value;
+        document.getElementById('votePrice').innerText = '# ' + e.target.value * 1000;
+    });
 });
